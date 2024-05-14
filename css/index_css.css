@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+.background {
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+    position: relative;
+    }
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.nav img{
+    margin-bottom: 10px;
+    width: 30px;;
+    height: 30px;;
+}
+
+.item{
+    margin-left: 10px;
+    margin-top: 5px;
+    display:flex;
+    text-decoration: none;
+    color: white;
+}
+
+.item .nav_1{
+    font-weight: lighter;
+}
+
+.item .nav_2{
+    font-weight: bold;
+}
+
+
+.right_side {
+    display: flex;
+    margin-left: auto;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.right_side a{
+    padding: 6px;
+    margin-right: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.right_side .item3 {
+    border: 2px solid rgb(220, 255, 80);
+    border-radius: 4px;
+}
+.right_side .item:hover {
+    border: 2px solid rgb(220, 255, 80);
+    border-radius: 4px;
+}
+.content{
+    position: fixed;
+    color: white;
+}
+.content .first_sentence{
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 60px;
+}
+
+.content .second_sentence{
+    font-weight: 800px;
+    font-size: 60px;
+    margin-left: 50px;
+
+}
+.content span {
+    margin-left:50px ;
+}
+
+.content P{
+    margin-top: 3px;
+    margin-left: 50px;
+}
+
+.Containers{
+    position: fixed;
+    display: flex;
+    color: white;
+    margin-top: 420px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.Containers .first_container {
+    display: flex;
+    margin-right: 50px;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.Containers .second_container {
+    display: flex;
+}
+
+
+.Containers .second_container:hover{
+    background-color: lightseagreen;
+    padding: 10px;
+}
+.circle{
+    border-radius: 50%;
+    border:1px solid white;
+    padding: 7px; 
+    width: 2px;
+    height: 2px; 
+    margin-left: 5px;
+}
+
+.triangle {
+    margin-top: -15px;
+    margin-left:12px ;
+    width: 1px;
+	height: 1px;
+	border-top: 6px solid transparent;
+	border-left: 6px solid white;
+	border-bottom: 6px solid transparent;
+}
+.triangle2 {
+    margin-top: -11px;
+    margin-left:7.5px ;
+    width: 1px;
+	height: 1px;
+	border-left: 6px solid transparent;
+	border-top: 6px solid white;
+	border-right: 6px solid transparent;
+}
+
